@@ -29,8 +29,8 @@ def format_percent(percent):
     return f"{percent}%"
 
 
-eth_bal = 0.33248320
-gusd_bal = 697.26887289
+eth_bal = 0.31504192
+gusd_bal = 751.26887289
 
 cg = CoinGeckoAPI()
 
