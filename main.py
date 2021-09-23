@@ -1,5 +1,7 @@
 import dotenv
 import os
+import json
+import pandas as pd
 from pycoingecko import CoinGeckoAPI
 from twilio.rest import Client
 dotenv.load_dotenv()
@@ -8,10 +10,6 @@ TWILIO_ACCOUNT_SID = os.environ['TWILIO_ACCOUNT_SID']
 TWILIO_AUTH_TOKEN = os.environ['TWILIO_AUTH_TOKEN']
 TWILIO_MESSAGE_SID = os.environ['TWILIO_MESSAGE_SID']
 TWILIO_SENDING_NUMBER = os.environ['MY_PHONE_NUMBER']
-
-TARGET_STABLE_PERCENT = 0.4
-REBLANCE_THRESHOLD = 0.02
-
 
 
 def send_text_message(message):
@@ -28,9 +26,13 @@ def format_percent(percent):
     percent = round(percent * 100, 2)
     return f"{percent}%"
 
+db = pd.read_json('data.json')
 
-eth_bal = 0.31504192
-gusd_bal = 751.26887289
+TARGET_STABLE_PERCENT = db.targets['target_stable_percent']
+REBLANCE_THRESHOLD = db.targets['rebalance_threshold']
+
+eth_bal = db.balances['ethereum']
+gusd_bal = db.balances['gemini-dollar']
 
 cg = CoinGeckoAPI()
 

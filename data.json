@@ -1,0 +1,10 @@
+{
+  "targets": {
+    "target_stable_percent": 0.4,
+    "rebalance_threshold": 0.02
+  },
+  "balances": {
+    "ethereum": 0.33248320,
+    "gemini-dollar": 697.26887289
+  }
+}
