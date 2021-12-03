@@ -1,7 +1,6 @@
 import dotenv
 import os
 import json
-import pandas as pd
 from pycoingecko import CoinGeckoAPI
 from twilio.rest import Client
 dotenv.load_dotenv()
@@ -26,13 +25,11 @@ def format_percent(percent):
     percent = round(percent * 100, 2)
     return f"{percent}%"
 
-db = pd.read_json('data.json')
+TARGET_STABLE_PERCENT = 0.40
+REBLANCE_THRESHOLD = 0.02
 
-TARGET_STABLE_PERCENT = db.targets['target_stable_percent']
-REBLANCE_THRESHOLD = db.targets['rebalance_threshold']
-
-eth_bal = db.balances['ethereum']
-gusd_bal = db.balances['gemini-dollar']
+eth_bal = 0.28926629
+gusd_bal = 912.13888679
 
 cg = CoinGeckoAPI()
 
