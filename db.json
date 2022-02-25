@@ -1,0 +1,32 @@
+{
+  "config": {
+    "1": {
+      "name": "stable_coin_percent",
+      "value": 0.4
+    },
+    "2": {
+      "name": "rebalance_threshold",
+      "value": 0.02
+    },
+    "3": {
+      "name": "last_sms_at",
+      "value": "2022-01-08T21:39:14.978933"
+    }
+  },
+  "assets": {
+    "1": {
+      "cg_id": "ethereum",
+      "symbol": "ETH",
+      "name": "Ethereum",
+      "balance": 0.34887599,
+      "updated_at": "2022-01-08T21:28:26.922164"
+    },
+    "2": {
+      "cg_id": "gemini-dollar",
+      "symbol": "GUSD",
+      "name": "Gemini Dollar",
+      "balance": 1500,
+      "updated_at": "2022-01-08T21:28:26.922164"
+    }
+  }
+}

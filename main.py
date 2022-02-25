@@ -1,10 +1,12 @@
 import dotenv
 import os
-import json
-import pandas as pd
 from pycoingecko import CoinGeckoAPI
 from twilio.rest import Client
+from tinydb import TinyDB, where, Query
+
 dotenv.load_dotenv()
+
+db = TinyDB('db.json')
 
 TWILIO_ACCOUNT_SID = os.environ['TWILIO_ACCOUNT_SID']
 TWILIO_AUTH_TOKEN = os.environ['TWILIO_AUTH_TOKEN']
@@ -26,12 +28,12 @@ def format_percent(percent):
     percent = round(percent * 100, 2)
     return f"{percent}%"
 
-db = pd.read_json('data.json')
 
 TARGET_STABLE_PERCENT = db.targets['target_stable_percent']
 REBLANCE_THRESHOLD = db.targets['rebalance_threshold']
 
-eth_bal = db.balances['ethereum']
+table = db.table('balances')
+eth_bal = table.search(where('symbol') == 'ETH')
 gusd_bal = db.balances['gemini-dollar']
 
 cg = CoinGeckoAPI()
