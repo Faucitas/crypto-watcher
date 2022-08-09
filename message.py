@@ -1,3 +1,6 @@
+import dotenv
+import os
+
 from twilio.rest import Client
 dotenv.load_dotenv()
 

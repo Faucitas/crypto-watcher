@@ -10,9 +10,9 @@
         "sell": 30
     },
     "exchange": {
-        "name": "bittrex",
-        "key": "188d22e6a9ab49b8ad2607ed11e213a2",
-        "secret": "605cb7bfeed24f8fb820aa4ce41b055c",
+        "name": "",
+        "key": "",
+        "secret": "",
         "ccxt_config": {"enableRateLimit": true},
         "ccxt_async_config": {
             "enableRateLimit": true,
