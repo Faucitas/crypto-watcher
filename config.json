@@ -1,0 +1,36 @@
+{
+    "max_open_trades": 1,
+    "stake_currency": "ETH",
+    "fiat_display_currency": "USD",
+    "timeframe": "1h",
+    "dry_run": true,
+    "dry_run_wallet": 0.048,
+    "unfilled_timeout": {
+        "buy": 10,
+        "sell": 30
+    },
+    "exchange": {
+        "name": "bittrex",
+        "key": "188d22e6a9ab49b8ad2607ed11e213a2",
+        "secret": "605cb7bfeed24f8fb820aa4ce41b055c",
+        "ccxt_config": {"enableRateLimit": true},
+        "ccxt_async_config": {
+            "enableRateLimit": true,
+            "rateLimit": 500
+        },
+        "pair_whitelist": [
+            "ADA/ETH"
+        ],
+        "pair_blacklist": []
+    },
+    "twilio": {
+        "enabled": false,
+        "auth_token": "",
+        "account_sid": "",
+        "message_id": "",
+        "sending_number": ""
+    },
+    "re-balancer": {
+        "target_method": "even"
+    }
+}
