@@ -1,24 +1,15 @@
 import json
+import os
 import ccxt
 from pycoingecko import CoinGeckoAPI
 
-
-TARGET_STABLE_PERCENT = 0.40
-REBALANCE_THRESHOLD = 0.02
-
-
-eth_bal = 0.28926629
-gusd_bal = 912.13888679
+from config.load_config import load_config_file
+from config import Config
 
 
-cg = CoinGeckoAPI()
+config = Config({'config': 'config.json'})
 
-def format_percent(percent):
-    percent = round(percent * 100, 2)
-    return f"{percent}%"
-
-
-
+print(config.get_config())
 # get Price Data
 
 # Extract price
