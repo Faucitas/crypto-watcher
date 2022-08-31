@@ -1,0 +1,27 @@
+{
+    "symbol": "ETH/USD",
+    "timestamp": null,
+    "datetime": null,
+    "high": null,
+    "low": null,
+    "bid": 1587.838,
+    "bidVolume": null,
+    "ask": 1588.958,
+    "askVolume": null,
+    "vwap": null,
+    "open": null,
+    "close": 1591.54,
+    "last": 1591.54,
+    "previousClose": null,
+    "change": null,
+    "percentage": null,
+    "average": null,
+    "baseVolume": null,
+    "quoteVolume": null,
+    "info": {
+        "symbol": "ETH-USD",
+        "lastTradeRate": "1591.540000000000",
+        "bidRate": "1587.838000000000",
+        "askRate": "1588.958000000000"
+    }
+}

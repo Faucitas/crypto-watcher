@@ -1,0 +1,27 @@
+{
+    "symbol": "BTC/USD",
+    "timestamp": null,
+    "datetime": null,
+    "high": null,
+    "low": 1,
+    "bid": 20288.016,
+    "bidVolume": null,
+    "ask": 20293.649,
+    "askVolume": null,
+    "vwap": null,
+    "open": null,
+    "close": 20284.094,
+    "last": 20284.094,
+    "previousClose": null,
+    "change": null,
+    "percentage": null,
+    "average": null,
+    "baseVolume": null,
+    "quoteVolume": null,
+    "info": {
+        "symbol": "BTC-USD",
+        "lastTradeRate": "20284.094000000000",
+        "bidRate": "20288.016000000000",
+        "askRate": "20293.649000000000"
+    }
+}

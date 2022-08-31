@@ -20,7 +20,10 @@ exchange_auth = config_obj.get('auth')
 exchange_name = config_obj.get('exchange_name')
 
 exchange = connect_to_exchange(exchange_name, exchange_auth)
-print(exchange.fetch_balance())
+# markets = exchange.load_markets()'
+# ticker = exchange.fetch_ticker('ETH/USD')
+
+
 
 # Extract price
 
