@@ -1,16 +1,29 @@
 import json
 import os
+
 import ccxt
 from pycoingecko import CoinGeckoAPI
 
-from config.load_config import load_config_file
 from config import Config
+from utils import connect_to_exchange
+
+current_dir = os.path.dirname(os.path.realpath(__file__))
+
+config = Config({'config': os.path.join(current_dir,'config.json')})
+config_obj = config.load_config()
 
 
-config = Config({'config': 'config.json'})
 
-print(config.get_config())
-# get Price Data
+# g et Price Data
+
+exchange_auth = config_obj.get('auth')
+exchange_name = config_obj.get('exchange_name')
+
+exchange = connect_to_exchange(exchange_name, exchange_auth)
+# markets = exchange.load_markets()'
+# ticker = exchange.fetch_ticker('ETH/USD')
+
+
 
 # Extract price
 
