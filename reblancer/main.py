@@ -3,9 +3,9 @@ import os
 
 import ccxt
 from pycoingecko import CoinGeckoAPI
-from typing import Dict
 
 from config import Config
+from utils import connect_to_exchange
 
 current_dir = os.path.dirname(os.path.realpath(__file__))
 
@@ -15,17 +15,6 @@ config_obj = config.load_config()
 
 
 # g et Price Data
-
-def connect_to_exchange(exchange_name: str, exchange_auth: Dict[str, str]):
-    """
-    Connects to specified crypto and returns CCXT exchange object
-    :param exchange_name: ccxt exchange id
-    :param exchange_auth: Dictionary containing the exchange API key and secret
-    :return: CCXT exchange object
-    """
-    exchange_class = getattr(ccxt, exchange_name)
-    return exchange_class(exchange_auth)
-
 
 exchange_auth = config_obj.get('auth')
 exchange_name = config_obj.get('exchange_name')
