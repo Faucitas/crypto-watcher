@@ -36,7 +36,6 @@ class Config:
     
     def _parse_exchange(self, config: Dict[str, str]) -> None:
         exchange_config = config['exchange']
-        print(exchange_config)
         name = exchange_config['name']
         auth = {
             'apiKey': exchange_config['key'],
