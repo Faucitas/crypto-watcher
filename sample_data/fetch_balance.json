@@ -1,0 +1,332 @@
+{
+    "info": [
+        {
+            "currencySymbol": "ADA",
+            "total": "0.00000000",
+            "available": "0.00000000",
+            "updatedAt": "2021-10-11T11: 57: 58.32Z"
+        },
+        {
+            "currencySymbol": "ALGO",
+            "total": "0.00000000",
+            "available": "0.00000000",
+            "updatedAt": "2021-09-14T18: 48: 55.49Z"
+        },
+        {
+            "currencySymbol": "BTC",
+            "total": "0.00346724",
+            "available": "0.00346724",
+            "updatedAt": "2022-08-29T12: 52: 50.2Z"
+        },
+        {
+            "currencySymbol": "BTXCRD",
+            "total": "21.78550351",
+            "available": "21.78550351",
+            "updatedAt": "2022-08-29T12: 53: 05.94Z"
+        },
+        {
+            "currencySymbol": "COMP",
+            "total": "0.00000000",
+            "available": "0.00000000",
+            "updatedAt": "2021-04-20T13: 23: 29.92Z"
+        },
+        {
+            "currencySymbol": "CRW",
+            "total": "0.00000000",
+            "available": "0.00000000",
+            "updatedAt": "2021-01-18T16: 59: 01.26Z"
+        },
+        {
+            "currencySymbol": "DGB",
+            "total": "0.00000000",
+            "available": "0.00000000",
+            "updatedAt": "2021-01-18T17: 15: 28.74Z"
+        },
+        {
+            "currencySymbol": "DOGE",
+            "total": "0.00000000",
+            "available": "0.00000000",
+            "updatedAt": "2022-01-24T14: 24: 55.2Z"
+        },
+        {
+            "currencySymbol": "EDR",
+            "total": "0.00000000",
+            "available": "0.00000000",
+            "updatedAt": "2020-10-25T01: 28: 53.49Z"
+        },
+        {
+            "currencySymbol": "ETH",
+            "total": "0.04566090",
+            "available": "0.04566090",
+            "updatedAt": "2022-08-29T12: 52: 50.2Z"
+        },
+        {
+            "currencySymbol": "HBAR",
+            "total": "0.00000000",
+            "available": "0.00000000",
+            "updatedAt": "2021-01-22T01: 21: 30.69Z"
+        },
+        {
+            "currencySymbol": "LBC",
+            "total": "0.00000000",
+            "available": "0.00000000",
+            "updatedAt": "2021-01-18T01: 37: 34.24Z"
+        },
+        {
+            "currencySymbol": "LTC",
+            "total": "0.00000000",
+            "available": "0.00000000",
+            "updatedAt": "2021-01-21T22: 47: 18.75Z"
+        },
+        {
+            "currencySymbol": "LUNC",
+            "total": "7478.59462755",
+            "available": "7478.59462755",
+            "updatedAt": "2022-05-23T12: 40: 04.52Z"
+        },
+        {
+            "currencySymbol": "MEME",
+            "total": "0.00000000",
+            "available": "0.00000000",
+            "updatedAt": "2021-04-20T20: 30: 54.37Z"
+        },
+        {
+            "currencySymbol": "RDD",
+            "total": "0.00000000",
+            "available": "0.00000000",
+            "updatedAt": "2021-04-20T20: 47: 45.52Z"
+        },
+        {
+            "currencySymbol": "TRX",
+            "total": "0.00000000",
+            "available": "0.00000000",
+            "updatedAt": "2021-09-27T01: 58: 44.38Z"
+        },
+        {
+            "currencySymbol": "TUSD",
+            "total": "0.00000000",
+            "available": "0.00000000",
+            "updatedAt": "2021-10-06T01: 13: 37.41Z"
+        },
+        {
+            "currencySymbol": "USD",
+            "total": "68.91419032",
+            "available": "68.91419032",
+            "updatedAt": "2022-08-29T12: 49: 11.94Z"
+        },
+        {
+            "currencySymbol": "USDT",
+            "total": "0.00000000",
+            "available": "0.00000000",
+            "updatedAt": "2022-03-10T02: 03: 13.75Z"
+        },
+        {
+            "currencySymbol": "XDN",
+            "total": "0.00000000",
+            "available": "0.00000000",
+            "updatedAt": "2021-04-20T21: 52: 11.47Z"
+        },
+        {
+            "currencySymbol": "XLM",
+            "total": "0.00000000",
+            "available": "0.00000000",
+            "updatedAt": "2021-01-17T18: 51: 47.88Z"
+        },
+        {
+            "currencySymbol": "XVG",
+            "total": "0.00000000",
+            "available": "0.00000000",
+            "updatedAt": "2021-01-17T21: 57: 05.85Z"
+        }
+    ],
+    "ADA": {
+        "free": 0.0,
+        "used": 0.0,
+        "total": 0.0
+    },
+    "ALGO": {
+        "free": 0.0,
+        "used": 0.0,
+        "total": 0.0
+    },
+    "BTC": {
+        "free": 0.00346724,
+        "used": 0.0,
+        "total": 0.00346724
+    },
+    "BTXCRD": {
+        "free": 21.78550351,
+        "used": 0.0,
+        "total": 21.78550351
+    },
+    "COMP": {
+        "free": 0.0,
+        "used": 0.0,
+        "total": 0.0
+    },
+    "CRW": {
+        "free": 0.0,
+        "used": 0.0,
+        "total": 0.0
+    },
+    "DGB": {
+        "free": 0.0,
+        "used": 0.0,
+        "total": 0.0
+    },
+    "DOGE": {
+        "free": 0.0,
+        "used": 0.0,
+        "total": 0.0
+    },
+    "EDR": {
+        "free": 0.0,
+        "used": 0.0,
+        "total": 0.0
+    },
+    "ETH": {
+        "free": 0.0456609,
+        "used": 0.0,
+        "total": 0.0456609
+    },
+    "HBAR": {
+        "free": 0.0,
+        "used": 0.0,
+        "total": 0.0
+    },
+    "LBC": {
+        "free": 0.0,
+        "used": 0.0,
+        "total": 0.0
+    },
+    "LTC": {
+        "free": 0.0,
+        "used": 0.0,
+        "total": 0.0
+    },
+    "LUNC": {
+        "free": 7478.59462755,
+        "used": 0.0,
+        "total": 7478.59462755
+    },
+    "Memetic": {
+        "free": 0.0,
+        "used": 0.0,
+        "total": 0.0
+    },
+    "RDD": {
+        "free": 0.0,
+        "used": 0.0,
+        "total": 0.0
+    },
+    "TRX": {
+        "free": 0.0,
+        "used": 0.0,
+        "total": 0.0
+    },
+    "TUSD": {
+        "free": 0.0,
+        "used": 0.0,
+        "total": 0.0
+    },
+    "USD": {
+        "free": 68.91419032,
+        "used": 0.0,
+        "total": 68.91419032
+    },
+    "USDT": {
+        "free": 0.0,
+        "used": 0.0,
+        "total": 0.0
+    },
+    "XDN": {
+        "free": 0.0,
+        "used": 0.0,
+        "total": 0.0
+    },
+    "XLM": {
+        "free": 0.0,
+        "used": 0.0,
+        "total": 0.0
+    },
+    "XVG": {
+        "free": 0.0,
+        "used": 0.0,
+        "total": 0.0
+    },
+    "free": {
+        "ADA": 0.0,
+        "ALGO": 0.0,
+        "BTC": 0.00346724,
+        "BTXCRD": 21.78550351,
+        "COMP": 0.0,
+        "CRW": 0.0,
+        "DGB": 0.0,
+        "DOGE": 0.0,
+        "EDR": 0.0,
+        "ETH": 0.0456609,
+        "HBAR": 0.0,
+        "LBC": 0.0,
+        "LTC": 0.0,
+        "LUNC": 7478.59462755,
+        "Memetic": 0.0,
+        "RDD": 0.0,
+        "TRX": 0.0,
+        "TUSD": 0.0,
+        "USD": 68.91419032,
+        "USDT": 0.0,
+        "XDN": 0.0,
+        "XLM": 0.0,
+        "XVG": 0.0
+    },
+    "used": {
+        "ADA": 0.0,
+        "ALGO": 0.0,
+        "BTC": 0.0,
+        "BTXCRD": 0.0,
+        "COMP": 0.0,
+        "CRW": 0.0,
+        "DGB": 0.0,
+        "DOGE": 0.0,
+        "EDR": 0.0,
+        "ETH": 0.0,
+        "HBAR": 0.0,
+        "LBC": 0.0,
+        "LTC": 0.0,
+        "LUNC": 0.0,
+        "Memetic": 0.0,
+        "RDD": 0.0,
+        "TRX": 0.0,
+        "TUSD": 0.0,
+        "USD": 0.0,
+        "USDT": 0.0,
+        "XDN": 0.0,
+        "XLM": 0.0,
+        "XVG": 0.0
+    },
+    "total": {
+        "ADA": 0.0,
+        "ALGO": 0.0,
+        "BTC": 0.00346724,
+        "BTXCRD": 21.78550351,
+        "COMP": 0.0,
+        "CRW": 0.0,
+        "DGB": 0.0,
+        "DOGE": 0.0,
+        "EDR": 0.0,
+        "ETH": 0.0456609,
+        "HBAR": 0.0,
+        "LBC": 0.0,
+        "LTC": 0.0,
+        "LUNC": 7478.59462755,
+        "Memetic": 0.0,
+        "RDD": 0.0,
+        "TRX": 0.0,
+        "TUSD": 0.0,
+        "USD": 68.91419032,
+        "USDT": 0.0,
+        "XDN": 0.0,
+        "XLM": 0.0,
+        "XVG": 0.0
+    }
+}
